@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void)
+{
+    printf("%d * %d = %d \n", 2, 3, 2*3);
+    // 2 * 3 = 6
+    return 0;
+}
