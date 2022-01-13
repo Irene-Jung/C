@@ -11,22 +11,66 @@
 ② unsigned short
 
 5. 다음 프로그램의 실행 결과는?
+#include <stdio.h>
+int main(void)
+{
+      printf("\ac programming\nclass\n");
+      return 0;
+}
+
+<답>
 (삐 소리)
 c programming
 class
 
 6. 다음 코드를 컴파일 할 때, 컴파일 경고가 발생하는 이유는 무엇인가?
+float f;
+f = 12.345;
+
+<답>
 f = 12.345f
 
 7. 다음 프로그램의 실행 결과는?
+#include <stdio.h>
+int main(void)
+{
+      int x;
+      float y;
+
+      y = x = 2.5;
+      printf("x=%d y=%f \n", x, y);
+      return 0;
+}
+
+<답>
 x=2 y=2.000000
 
 8. 정수 18을 이진수로 바꾸면?
 ④ 0001 0010
 
 9. 다음 프로그램의 실행 결과는?
+#include <stdio.h>
+int main(void)
+{
+      int var = 0x10;
+      printf("%d", var);
+      return 0;
+}
+
+<답>
 16
 
 10. 다음 프로그램의 실행 결과는?
+#include <stdio.h>
+int main(void)
+{
+      char code = 'B';
+
+      printf("%c\n", code-1);
+      printf("%c\n", code+1);
+      return 0;
+}
+
+<답>
 A
 C

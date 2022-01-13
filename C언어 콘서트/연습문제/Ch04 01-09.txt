@@ -8,15 +8,52 @@
 ② 30 = x + y;
 
 4. 다음 코드의 실행 결과는?
+#include <stdio.h>
+int main(void)
+{
+      int i = 5;
+      i = i / 3;
+      printf("%d \n", i);
+      return 0;
+}
+
+<답>
 1
 
 5. 다음 코드의 실행 결과는?
+#include <stdio.h>
+int main(void)
+{
+      int x = 2 * 9 / 3 + 9;
+      printf("%d \n", x);
+      return 0;
+}
+
+<답>
 15
 
 6. 다음 코드의 실행 결과는?
+#include <stdio.h>
+int main(void)
+{
+      int x = 5 % 2 * 3 / 2;
+      printf("%d \n", x);
+      return 0;
+}
+
+<답>
 1
 
 7. 다음 코드의 실행 결과는?
+int x=10;
+int y=20;
+printf("%d\n", x < y);
+printf("%d\n", x == y);
+printf("%d\n", x = y);
+printf("%d\n", x != y);
+printf("%d\n", x++ );
+
+<답>
 1
 0
 20
@@ -35,4 +72,17 @@ int main(void)
 }
 
 9. 다음은 100에 1/2를 곱하여 50을 계산하려는 코드이다. 항상 0이 출력된다. 어디에 문제가 있는가?
+#include <stdio.h>
+int main(void)
+{
+      int x = 100;
+      int y;
+
+
+      y = (1 / 2) * x;
+      printf("%d \n", y);
+      return 0;
+}
+
+<답>
 y = x * 1 / 2;
